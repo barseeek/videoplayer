@@ -12,8 +12,9 @@
 }
 
 button {
-
-  margin: auto;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
   border: none;
   cursor: pointer;
   background-color: transparent;
