@@ -20,9 +20,14 @@ button {
   background-color: transparent;
 }
 .buttons {
+  display: flex;
+  justify-content: space-between;
   background-color: black;
 }
 .fa {
   color: white;
   font-size: large;
+}
+.fullscreen-button {
+  margin-left: auto;
 }
