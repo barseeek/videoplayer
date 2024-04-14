@@ -7,27 +7,26 @@
 }
 
 .video-container {
-
   flex-grow: 1;
 }
 
-button {
+.player-button {
   height: 30px;
   width: 30px;
   margin: 10px;
   border: none;
   cursor: pointer;
   background-color: transparent;
+  color: white;
+  font-size: large;
 }
+
 .buttons {
   display: flex;
   justify-content: space-between;
   background-color: black;
 }
-.fa {
-  color: white;
-  font-size: large;
-}
+
 .fullscreen-button {
   margin-left: auto;
 }
