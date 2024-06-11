@@ -13,12 +13,23 @@
 .player-button {
   height: 30px;
   width: 30px;
-  margin: 10px;
+  margin: 7px;
   border: none;
   cursor: pointer;
   background-color: transparent;
   color: white;
-  font-size: large;
+  font-size: 19px;
+}
+
+.player-button.play {
+  margin-left: 2px;
+}
+
+.player-button.mute {
+  margin-left: 0;
+}
+.player-button.fullscreen {
+  margin-right: 1px;
 }
 
 .buttons {
