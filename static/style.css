@@ -26,18 +26,45 @@
 }
 
 .player-button.mute {
-  margin-left: 0;
+  margin-left: -2px;
 }
 .player-button.fullscreen {
-  margin-right: 1px;
+  margin-right: 3px;
 }
 
-.buttons {
+.bottom-controls {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   background-color: black;
+
 }
 
 .fullscreen-button {
+  margin-left: auto;
+}
+.viewing-panel {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 5px;
+  margin-left: -5px;
+}
+.viewing-duration {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.viewing-time {
+  margin-right: auto;
+}
+
+.viewing-duration {
   margin-left: auto;
 }
