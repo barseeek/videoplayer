@@ -82,4 +82,14 @@
   border: white 3px solid;
   margin-left: -8px;
   margin-top: 2px;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in, ease-out;
+}
+.viewing-progressbar:hover .dot {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in, ease-out;
 }
