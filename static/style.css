@@ -21,11 +21,11 @@
   font-size: 19px;
 }
 
-.player-button.play {
+.player-button.play, .player-button.pause {
   margin-left: 2px;
 }
 
-.player-button.mute {
+.player-button.mute, .player-button.volume {
   margin-left: -2px;
 }
 .player-button.fullscreen {
@@ -40,9 +40,7 @@
 
 }
 
-.fullscreen-button {
-  margin-left: auto;
-}
+
 .viewing-panel {
   color: white;
   font-family: "Roboto", sans-serif;
@@ -60,11 +58,28 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin-right: -8px;
+
 }
-.viewing-time {
-  margin-right: auto;
+.viewing-progressbar {
+  background-color: black;
+  flex:1;
+  display: flex;
+}
+.viewing-slider {
+  background-color: red;
+  height: 5px;
+  border-radius: 10px;
+  margin-left: 10px;
+      margin-top: 5px;
 }
 
-.viewing-duration {
-  margin-left: auto;
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: red;
+  border-radius: 50%;
+  border: white 3px solid;
+  margin-left: -8px;
+  margin-top: 2px;
 }
